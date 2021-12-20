@@ -6,7 +6,7 @@
         "label": "gcc build active file",
         "command": "/usr/bin/gcc",
         "args": [
-          "-std=c99",
+          "-std=c11",
           "-g",
           "${file}",
           "-o",
